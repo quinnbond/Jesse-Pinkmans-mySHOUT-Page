@@ -5,12 +5,14 @@
 }
 
 body {
-	background-image: url("weed2.jpg");
-	background-repeat: repeat; /* -y repeat-x;*/
+	background-image: 
+		linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("weed.png");
+	background-repeat: repeat;
 }
- 
+
 p, h3, h1, h2, h4, h5, h6, a, div {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
 }
 
 p {
