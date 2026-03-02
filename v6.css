@@ -10,6 +10,9 @@ body {
 }
  
 p {
+	p, h3, h1, h2, h4, h5, h6, a, div {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
   font-size: 20px;
   font-family: sans-serif;
   color: white;
